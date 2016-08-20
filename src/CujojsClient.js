@@ -21,7 +21,7 @@ client({
 }).then(function(response) {
     console.log('response: ', response);
 
-    //TODO: FIX
+    //TODO: DELETE THIS WHEN ISSUE IS RESOLVED - https://github.com/openzipkin/zipkin-js/issues/33
     setTimeout(function () {
         console.log('timeout');
     }, 5000);
