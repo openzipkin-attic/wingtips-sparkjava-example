@@ -21,7 +21,7 @@ public class SparkServer {
         });
 
         get("/request", (request, response) -> {
-            //This demonstrates how to create subs-pans
+            //This demonstrates how to create sub-sans
             Tracer.getInstance().startSubSpan("server-first-sub-span", Span.SpanPurpose.LOCAL_ONLY);
             Thread.sleep(500);
             Tracer.getInstance().completeSubSpan();
