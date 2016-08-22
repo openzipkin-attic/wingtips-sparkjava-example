@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "wingtips-cujojs-spark-example",
   "version": "1.0.0",
   "description": "Simple app that shows how to use Wingtips And Zipkin-JS for client-server communications",
