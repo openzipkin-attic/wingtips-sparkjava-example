@@ -12,8 +12,8 @@ const recorder = new BatchRecorder({
 });
 
 const tracer = new Tracer({ctxImpl, recorder});
-const nameOfRemoteService = 'cujojs-client';
-const client = rest.wrap(restInterceptor, {tracer, serviceName: nameOfRemoteService});
+const nameOfClient = 'cujojs-client';
+const client = rest.wrap(restInterceptor, {tracer, serviceName: nameOfClient});
 
 client({
     method: 'GET',
