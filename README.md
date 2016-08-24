@@ -12,4 +12,4 @@ This shows how to create server in [Spark Web Framework](http://sparkjava.com/) 
 Navigate to: `http://localhost:9411` to see all the traces in Zipkin.
 
 ###Results:
-![Screenshot](zipkin.png "Zipkin UI")
+![Screenshot](screenshot.png "Zipkin UI")
