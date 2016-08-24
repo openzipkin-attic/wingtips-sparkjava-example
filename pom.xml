@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>ZipkinDemo</artifactId>
+    <artifactId>WingtipsDemo</artifactId>
     <version>1.0</version>
 
     <build>
